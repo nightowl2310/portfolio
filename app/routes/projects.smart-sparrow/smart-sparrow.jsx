@@ -70,14 +70,14 @@ const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = 'Designing the future of education';
+const title = 'Nagar Mitra: Smart operator for Municipal Corporation';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'I worked as the developer on Nagar Mitra, a Smart Workshop Management Platform for Indore Municipal Corporation. We built a full stack system for 25+ departments, integrating an AI-powered chatbot for appointment scheduling and dynamic analytics.';
 const roles = [
-  'Art Direction',
+  'React',
   'UX and UI Design',
   'Front End Development',
-  'Motion Design',
+  'Vercel Deployment',
 ];
 
 export const meta = () => {

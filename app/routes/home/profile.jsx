@@ -21,15 +21,12 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I amm Kavyansh, working with Indore Municipal Corporation and {' '}
+      <Link href="https://gdgoc-ietdavv.netlify.app/">Google Developer Groups on Campus IET DAVV</Link>. I handle projects across automation, web, and community initiatives turning the thought cloud into working prototype. In my spare time I design, explore marketing, and manage events. Fun fact: I somehow thrive when things go wrong last minute. It is my best productivity hack.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      <Link href="/projects/volkihar-knight">Automations</Link>. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
