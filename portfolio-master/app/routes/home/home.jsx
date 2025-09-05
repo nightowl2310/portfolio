@@ -9,7 +9,7 @@ import sliceTexturePlaceholder from '~/assets/slice-app-placeholder.jpg';
 import sliceTexture from '~/assets/slice-app.jpg';
 import sprTextureLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import sprTexturePlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from '~/assets/spr-lesson-builder-dark.jpg';
+import sprTexture from '~/assets/fluenceai.png';
 import { Footer } from '~/components/footer';
 import { baseMeta } from '~/utils/meta';
 import { Intro } from './intro';
@@ -106,7 +106,8 @@ export const Home = () => {
         title="Nagar Mitra: Smart operator for Municipal Corporation"
         description="I worked as the developer on Nagar Mitra – a Smart Workshop Management Platform for Indore Municipal Corporation. We built a full stack system for 25+ departments, integrating an AI-powered chatbot for appointment scheduling and dynamic analytics."
         buttonText="View project"
-        buttonLink="https://nirmaan-vigil-ai.vercel.app/"
+        buttonLink="projects/smart-sparrow"
+        // buttonLink="https://nirmaan-vigil-ai.vercel.app/"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
