@@ -7,21 +7,21 @@ import backgroundSpr from '~/assets/spr-background.jpg';
 import imageSprComponentsDarkLarge from '~/assets/spr-components-dark-large.png';
 import imageSprComponentsDarkPlaceholder from '~/assets/spr-components-dark-placeholder.png';
 import imageSprComponentsDark from '~/assets/spr-components-dark.png';
-import imageSprComponentsLightLarge from '~/assets/spr-components-light-large.png';
+import imageSprComponentsLightLarge from '~/assets/locationfinder.png';
 import imageSprComponentsLightPlaceholder from '~/assets/spr-components-light-placeholder.png';
 import imageSprComponentsLight from '~/assets/spr-components-light.png';
 import imageSprDesignSystemDarkLarge from '~/assets/spr-design-system-dark-large.png';
 import imageSprDesignSystemDarkPlaceholder from '~/assets/spr-design-system-dark-placeholder.png';
 import imageSprDesignSystemDark from '~/assets/spr-design-system-dark.png';
-import imageSprDesignSystemLightLarge from '~/assets/spr-design-system-light-large.png';
+import imageSprDesignSystemLightLarge from '~/assets/nagarmitra.png';
 import imageSprDesignSystemLightPlaceholder from '~/assets/spr-design-system-light-placeholder.png';
 import imageSprDesignSystemLight from '~/assets/spr-design-system-light.png';
 import imageSprLessonBuilderDarkLarge from '~/assets/spr-lesson-builder-dark-large.jpg';
 import imageSprLessonBuilderDarkPlaceholder from '~/assets/spr-lesson-builder-dark-placeholder.jpg';
 import imageSprLessonBuilderDark from '~/assets/fluenceai.png';
-import imageSprLessonBuilderLightLarge from '~/assets/spr-lesson-builder-light-large.jpg';
+import imageSprLessonBuilderLightLarge from '~/assets/nagarmitra.png';
 import imageSprLessonBuilderLightPlaceholder from '~/assets/spr-lesson-builder-light-placeholder.jpg';
-import imageSprLessonBuilderLight from '~/assets/spr-lesson-builder-light.jpg';
+import imageSprLessonBuilderLight from '~/assets/fluenceai.png';
 import videoSprMotionLarge from '~/assets/spr-motion-large.mp4';
 import videoSprMotionPlaceholder from '~/assets/spr-motion-placeholder.jpg';
 import videoSprMotion from '~/assets/spr-motion.mp4';
@@ -70,9 +70,9 @@ const EarthSection = lazy(() =>
   import('./earth').then(module => ({ default: module.EarthSection }))
 );
 
-const title = 'Nagar Mitra: Smart operator for Municipal Corporation';
+const title = 'A Journey of Converting Opportunity into Reality ';
 const description =
-  'I worked as the developer on Nagar Mitra, a Smart Workshop Management Platform for Indore Municipal Corporation. We built a full stack system for 25+ departments, integrating an AI-powered chatbot for appointment scheduling and dynamic analytics.';
+  'From a hackathon spark to the mayor’s office, I turned opportunity into impact, building civic tech solutions in Indore Municipal Corporation that simplified governance, empowered citizens and 80% faster navigation and complaint resolution';
 const roles = [
   'React',
   'UX and UI Design',
@@ -132,18 +132,17 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>The problem</ProjectSectionHeading>
+            <ProjectSectionHeading>NagarMitra: Smart Workshop Management Platform</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
-            </ProjectSectionText>
+              Indore’s civic workshops once ran on paper, scattered files, and endless delays. I worked as a developer on Nagar Mitra, where under the Mayor’s vision we built a smart platform uniting 25+ departments. With a full-stack system, AI chatbot for effortless scheduling, and real-time analytics, Nagar Mitra transformed workshops into an organized, efficient, citizen friendly experience.
+                <br />
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginTop: '1em', padding: '0.5em 1.5em', background: '#3D3D3D', color: '#fff', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold', fontSize: '1rem' }}>
+                  Website
+                </a>
+        </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
+        
         <ProjectSection light={isDark}>
           <ProjectSectionContent>
             <Image
@@ -173,13 +172,13 @@ export const SmartSparrow = () => {
               </SegmentedControl>
             </ProjectTextRow>
             <ProjectTextRow>
-              <ProjectSectionHeading>The aero design system</ProjectSectionHeading>
+              <ProjectSectionHeading>Internship with Mayor</ProjectSectionHeading>
               <ProjectSectionText>
-                To streamline the design process across designers and engineers for such a
-                large project, it was important to lay the foundations with a strong,
-                flexible design system that could evolve during the product’s development
-                cycle. This would inform both the aesthetics and user experience across
-                the product itself as well as the website and marketing material.
+                Inside Indore Municipal Corporation's maze of corridors, citizens often feel lost, departments scattered, directions unclear, time wasted. Under the Mayor's guidance, we turned that confusion into clarity with a digital guide. Built with maps, data, and a chatbot, our platform places every office at your fingertips, making governance accessible, navigation simple, and the city’s heart finally easy to explore.
+                <br />
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginTop: '1em', padding: '0.5em 1.5em', background: '#3D3D3D', color: '#fff', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold', fontSize: '1rem' }}>
+                  Website
+                </a>
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -205,12 +204,9 @@ export const SmartSparrow = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Design system docs</ProjectSectionHeading>
+              <ProjectSectionHeading>NirmanChecker: checks illegal land occupation </ProjectSectionHeading>
               <ProjectSectionText>
-                A design system is useless if no one knows how to use it, so we put
-                together a comprehensive documentation website to cover principles, ux,
-                accessibility, and component guidelines for designers and engineers
-                working with the system.
+                Our city was growing fast, but along with it rise buildings that should not exist extra floors built in silence, hidden from official eyes. Citizens often notice, yet their voices fade in paperwork and delays. That is why we built NirmanChecker, an AI powered tool that spots illegal floors, verifies records, and lets anyone raise a complaint in minutes. Now, truth surfaces quicker, action follows faster, and citizens finally have a digital ally to keep the city fair and planned.
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -234,10 +230,17 @@ export const SmartSparrow = () => {
                 <ProjectTextRow width="s">
                   <ProjectSectionHeading>Motion design</ProjectSectionHeading>
                   <ProjectSectionText>
-                    Animation was a core principle in making the authoring experience a
-                    more understandable process. Elements animate in ways that indicate
-                    the cause and effect of each interaction to improve the fluidity of
-                    the overall experience.
+                    Our city is growing fast, but along with it rise buildings that should not exist extra floors built in silence, hidden from official eyes.
+
+Citizens often notice, yet their voices fade in paperwork and delays.
+
+That is why we built NirmanChecker, an AI powered tool that spots illegal floors, verifies records, and lets anyone raise a complaint in minutes.
+
+Now, truth surfaces quicker, action follows faster, and citizens finally have a digital ally to keep the city fair and planned.
+                  <br />
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', marginTop: '1em', padding: '0.5em 1.5em', background: '#3D3D3D', color: '#fff', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold', fontSize: '1rem' }}>
+                  Website
+                </a>
                   </ProjectSectionText>
                 </ProjectTextRow>
               </ProjectSectionContent>
@@ -524,7 +527,7 @@ export const SmartSparrow = () => {
         <ProjectSection>
           <ProjectSectionContent>
             <ProjectTextRow center centerMobile noMargin>
-              <svg
+              {/* <svg
                 width="141"
                 height="43"
                 viewBox="0 0 141 43"
@@ -536,7 +539,7 @@ export const SmartSparrow = () => {
                   fillRule="evenodd"
                   d="M35.47 30.82c6.24-11.43 4.15-22.73-4.81-27.77C20.76-2.5 7.84.52 2.28 12.46c-3.84 8.2-2.1 22.48 6.82 27.6 8.92 5.1 20.9.81 26.37-9.23Zm-3.02-12.15c.3-2.3-.24-5.1-2-6.95l-.02-.02c-3.38-3.76-8.06-4-11.02-3.92a16.61 16.61 0 0 0-7.55 2.14c-1.68.86-3.2 2.35-3.81 3.08-.4.47-1.06 1.44-.7 2.31.29.73 1.4.68 1.81.37.22-.16.45-.37.7-.6l.72-.64c2.53-2.07 4.78-3.37 10-3.37 5.23 0 8.06 3.22 8.06 6.09 0 2.87-1.38 4.82-3.97 6.09a10.54 10.54 0 0 1-4.4 1.18c.13-2.78.2-5.41.2-5.41 0-.33.02-.65.03-.96.07-1.55.12-2.72-1.01-2.94-1.36-.27-3.86 0-3.9 1.52-.06-.23.25 12.51.31 12.77l.02.29c.03.32.15.6.35.83a1.38 1.38 0 0 0 .98.41c.28 0 .68-.05 1.09-.16.5-.15 1.02-.39 1.31-.77.15-.2.27-.38.34-.72.04-.24.13-1.72.15-2.15 2.75-.02 5.54-.53 7.67-1.8 2.68-1.62 4.29-4.04 4.64-6.67ZM18.23 32.41a2.12 2.12 0 0 1 1.69 1.99c0 .52-.22.99-.63 1.32-.35.28-.8.43-1.3.43h-.01c-.23 0-.46-.03-.69-.1-.39-.1-.7-.29-.9-.52-.19-.22-.31-.5-.37-.83-.08-.5.05-1.04.36-1.48a1.9 1.9 0 0 1 1.53-.84c.1 0 .22 0 .32.03Z"
                 />
-              </svg>
+              </svg> */}
               <ProjectSectionHeading>Project outcomes</ProjectSectionHeading>
               <ProjectSectionText>
                 Ultimately the project was successful after Smart Sparrow and the aero
